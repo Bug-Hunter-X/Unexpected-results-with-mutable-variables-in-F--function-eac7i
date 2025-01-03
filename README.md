@@ -1,0 +1,1 @@
+This example demonstrates a common error when using mutable variables in F# functions. The `add` function modifies the input variables `x` and `y`, leading to unexpected results. The issue arises because the function modifies the values in place, and the final result is not what one might intuitively expect.
